@@ -1,0 +1,4 @@
+env/
+qgis/
+tests/
+wheels/
