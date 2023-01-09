@@ -4,3 +4,4 @@ tests/
 wheels/
 data/external/zips/
 data/external/national_census_data/
+data/shapefiles/
