@@ -8,7 +8,7 @@ data_path = "data/external/national_census_data/"
 save_path = "data/processed/population.csv"
 
 # Columns for codes dataset
-codes_cols = ["U_DPTO", "U_MPIO", "Departamento", "Municipio"]
+codes_cols = ["U_DPTO", "U_MPIO", "Municipio", "Departamento"]
 
 def main():
     # List to store all population datasets
