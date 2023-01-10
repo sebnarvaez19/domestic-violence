@@ -20,4 +20,4 @@ In this repo we will analyze the spatial distribution fo domestic violance cases
 
 You have to install all the [requirements.txt](requirements.txt) and its dependencies.
 
-Original population data did not uploaded, but it could be donwloaded from the [Colombian Statistical Administration Catalog](https://microdatos.dane.gov.co/index.php/catalog/central/about).
+Original population data will not be uploaded, but it could be donwloaded from the [Colombian Statistical Administration Catalog](https://microdatos.dane.gov.co/index.php/catalog/central/about). Base cartography data will not be uploaded, buth the cities taken from this it is uploaded.
