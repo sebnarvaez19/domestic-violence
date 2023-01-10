@@ -1,10 +1,12 @@
 import numpy as np
 import pandas as pd
 
+# Define paths
 violence_path = "data/external/Reporte_Delito_Violencia_Intrafamiliar_Polic_a_Nacional.csv"
 population_path = "data/processed/population.csv"
 save_path = "data/processed/domestic_violences_cases.csv"
 
+# Define column names
 columns = [
     "U_DPTO", "U_MPIO", "DomesticViolenceCases", 
     "Population", "Municipio", "Departamento"
