@@ -40,15 +40,41 @@ def main():
     # Merge census data with domestic violance cases
     gdf = census.merge(violence, on="MPIO_CDPMP", how="left")
 
+    # Calculate domestic violance cases per 1000 inhabitants
+    gdf["DVCper1000iH"] = gdf.DomesticViolenceCases/gdf.STP27_PERS*1000
+    
+    # Calculate adult population
+    gdf["AdultPopulation"] = gdf.STP34_3_ED + gdf.STP34_4_ED + gdf.STP34_5_ED +\
+                             gdf.STP34_6_ED + gdf.STP34_7_ED + gdf.STP34_8_ED +\
+                             gdf.STP34_9_ED
+
+    # Calculate kids population
+    gdf["KidPopulation"] = gdf.STP34_1_ED + gdf.STP34_2_ED
+
+    # Calculate school level up to primary
+    gdf["UptoPrimary"] = gdf.STP51_13_E + gdf.STP51_PRIM
+
+    # Calculate how many adults are at least at primary
+    gdf["AdultinPrimary"] = gdf.UptoPrimary - gdf.KidPopulation
+
+    # Calculate percentage of adults in primary
+    gdf["PercentageAdultinPrimary"] = gdf.AdultinPrimary/gdf.AdultPopulation*100
+
+    # Calculate percentage of houses in lowest socioeconomical level
+    gdf["PercentageLSL"] = gdf.STP19_EE_1/gdf.STVIVIENDA*100
+
+    # Calculate percentage of houses without electric services
+    gdf["PercentageHWES"] = gdf.STP19_ES_2/gdf.STVIVIENDA*100
+
+    # Calculate percentage of houses without water services
+    gdf["PercentageHWWS"] = gdf.STP19_ACU2/gdf.STVIVIENDA*100
+
     # Sort columns
     columns = gdf.columns.to_list()
     columns.remove("geometry")
     columns.append("geometry") 
 
     gdf = gdf[columns]
-
-    # Calculate domestic violance cases per 1000 inhabitants
-    gdf["DVCper1000iH"] = gdf.DomesticViolenceCases/gdf.STP27_PERS*1000
 
     # Save data
     gdf.to_file(save_path, layer=layer_name)
