@@ -79,7 +79,7 @@
 77,5,543,7141.0,Peque,Antioquia
 78,5,576,7202.0,Pueblorrico,Antioquia
 79,5,579,35791.0,Puerto berrio,Antioquia
-80,5,585,12127.0,"Puerto nare (lamagdalena)",Antioquia
+80,5,585,12127.0,Puerto nare (la magdalena),Antioquia
 81,5,591,15490.0,Puerto triunfo,Antioquia
 82,5,604,22519.0,Remedios,Antioquia
 83,5,607,20568.0,Retiro,Antioquia
@@ -124,7 +124,7 @@
 122,5,890,18915.0,Yolombo,Antioquia
 123,5,893,17493.0,Yondo,Antioquia
 124,5,895,24052.0,Zaragoza,Antioquia
-125,8,1,1115490.0,"Barranquilla (distritoespecial, industrial yportuario debarranquilla)",Atlantico
+125,8,1,1115490.0,"Barranquilla (distrito especial, industrial y portuario de barranquilla)",Atlantico
 126,8,78,61446.0,Baranoa,Atlantico
 127,8,137,22810.0,Campo de la cruz,Atlantico
 128,8,141,15631.0,Candelaria,Atlantico
@@ -148,8 +148,8 @@
 146,8,832,12718.0,Tubara,Atlantico
 147,8,849,9543.0,Usiacuri,Atlantico
 148,11,1,7149540.0,"Santa fe de bogota, d. c.",Santa fe de bogotá
-149,11,1,7149540.0,"Santafe de bogota d.c.-usaquen",Santa fe de bogotá
-150,13,1,884084.0,"Cartagena (distritoturistico y cultural decartagena)",Bolivar
+149,11,1,7149540.0,Santafe de bogota d.c.- usaquen,Santa fe de bogotá
+150,13,1,884084.0,Cartagena (distrito turistico y cultural de cartagena),Bolivar
 151,13,6,18864.0,Achi,Bolivar
 152,13,30,9009.0,Altos del rosario,Bolivar
 153,13,42,7169.0,Arenal,Bolivar
@@ -415,7 +415,7 @@
 413,20,310,4034.0,Gonzalez,Cesar
 414,20,383,14779.0,La gloria,Cesar
 415,20,400,37106.0,La jagua ibirico,Cesar
-416,20,443,9302.0,"Manaure (balcon delcesar)",Cesar
+416,20,443,9302.0,Manaure (balcon del cesar),Cesar
 417,20,517,16800.0,Pailitas,Cesar
 418,20,550,18487.0,Pelaya,Cesar
 419,20,570,22763.0,Pueblo bello,Cesar
@@ -448,7 +448,7 @@
 446,23,660,94010.0,Sahagun,Cordova
 447,23,670,42041.0,San andres sotavento,Cordova
 448,23,672,29028.0,San antero,Cordova
-449,23,675,29437.0,"San bernardo delviento",Cordova
+449,23,675,29437.0,San bernardo del viento,Cordova
 450,23,678,23532.0,San carlos,Cordova
 451,23,686,40614.0,San pelayo,Cordova
 452,23,807,85813.0,Tierralta,Cordova
@@ -529,7 +529,7 @@
 527,25,596,6110.0,Quipile,Cundinamarca
 528,25,599,7530.0,Apulo (rafael reyes),Cundinamarca
 529,25,612,10787.0,Ricaurte,Cundinamarca
-530,25,645,10202.0,"San  antonio deltequendama",Cundinamarca
+530,25,645,10202.0,San  antonio del tequendama,Cundinamarca
 531,25,649,7404.0,San bernardo,Cundinamarca
 532,25,653,4043.0,San cayetano,Cundinamarca
 533,25,658,9376.0,San francisco,Cundinamarca
@@ -569,7 +569,7 @@
 567,25,885,10887.0,Yacopi,Cundinamarca
 568,25,898,4211.0,Zipacon,Cundinamarca
 569,25,899,128968.0,Zipaquira,Cundinamarca
-570,27,1,119481.0,"Quibdo (san franciscode quibdo)",Choco
+570,27,1,119481.0,Quibdo (san francisco de quibdo),Choco
 571,27,6,12095.0,Acandi,Choco
 572,27,25,23954.0,Alto baudo (pie de pato),Choco
 573,27,50,5494.0,Atrato,Choco
@@ -577,10 +577,10 @@
 575,27,75,9135.0,Bahia solano (mutis),Choco
 576,27,77,18451.0,Bajo baudo (pizarro),Choco
 577,27,99,11930.0,Bojaya (bellavista),Choco
-578,27,135,5660.0,"Canton de san pablo(managru)",Choco
+578,27,135,5660.0,Canton de san pablo (managru),Choco
 579,27,205,12232.0,Condoto,Choco
 580,27,245,7898.0,El carmen de atrato,Choco
-581,27,250,11579.0,"Litoral del bajo sanjuan (santa genoveva dedocordo)",Choco
+581,27,250,11579.0,Litoral del bajo san juan (santa genoveva de docordo),Choco
 582,27,361,27349.0,Istmina,Choco
 583,27,372,4108.0,Jurado,Choco
 584,27,413,8928.0,Lloro,Choco
@@ -646,7 +646,7 @@
 644,44,847,158166.0,Uribia,La guajira
 645,44,855,10187.0,Urumita,La guajira
 646,44,874,24966.0,Villanueva,La guajira
-647,47,1,477257.0,"Santa marta (distritoturistico, cultural ehistoricode santamarta)",Magdalena
+647,47,1,477257.0,"Santa marta (distrito turistico, cultural e historicode santa marta)",Magdalena
 648,47,30,14294.0,Algarrobo,Magdalena
 649,47,53,37440.0,Aracataca,Magdalena
 650,47,58,28284.0,Ariguani (el dificil),Magdalena
@@ -660,14 +660,14 @@
 658,47,288,64818.0,Fundacion,Magdalena
 659,47,318,25308.0,Guamal,Magdalena
 660,47,541,7569.0,Pedraza,Magdalena
-661,47,545,11071.0,"Pijiño del carmen(pijiño)",Magdalena
+661,47,545,11071.0,Pijiño del carmen (pijiño),Magdalena
 662,47,551,34372.0,Pivijay,Magdalena
 663,47,555,56153.0,Plato,Magdalena
 664,47,570,26419.0,Puebloviejo,Magdalena
 665,47,605,9555.0,Remolino,Magdalena
 666,47,660,14047.0,Sabanas de san angel,Magdalena
 667,47,675,9360.0,Salamina,Magdalena
-668,47,692,18865.0,"San sebastian debuenavista",Magdalena
+668,47,692,18865.0,San sebastian de buenavista,Magdalena
 669,47,703,11277.0,San zenon,Magdalena
 670,47,707,22705.0,Santa ana,Magdalena
 671,47,745,25804.0,Sitionuevo,Magdalena
@@ -701,7 +701,7 @@
 699,50,686,1106.0,San juanito,Meta
 700,50,689,21719.0,San martin,Meta
 701,50,711,16249.0,Vistahermosa,Meta
-702,52,1,349352.0,"Pasto (san juan depasto)",Nariño
+702,52,1,349352.0,Pasto (san juan de pasto),Nariño
 703,52,19,8191.0,Alban (san jose),Nariño
 704,52,22,6872.0,Aldana,Nariño
 705,52,36,7481.0,Ancuya,Nariño
@@ -740,23 +740,23 @@
 738,52,427,18255.0,Magui (payan),Nariño
 739,52,435,7972.0,Mallama (piedrancha),Nariño
 740,52,473,10202.0,Mosquera,Nariño
-741,52,490,21356.0,"Olaya herrera (bocasde satinga)",Nariño
+741,52,490,21356.0,Olaya herrera (bocas de satinga),Nariño
 742,52,506,6488.0,Ospina,Nariño
-743,52,520,7430.0,"Francisco pizarro(salahonda)",Nariño
+743,52,520,7430.0,Francisco pizarro (salahonda),Nariño
 744,52,540,8149.0,Policarpa,Nariño
 745,52,560,10179.0,Potosi,Nariño
 746,52,565,4619.0,Providencia,Nariño
 747,52,573,8429.0,Puerres,Nariño
 748,52,585,16431.0,Pupiales,Nariño
 749,52,612,18067.0,Ricaurte,Nariño
-750,52,621,10473.0,"Roberto payan (sanjose)",Nariño
+750,52,621,10473.0,Roberto payan (san jose),Nariño
 751,52,678,23697.0,Samaniego,Nariño
 752,52,683,18837.0,Sandona,Nariño
 753,52,685,8874.0,San bernardo,Nariño
 754,52,687,16626.0,San lorenzo,Nariño
 755,52,693,12905.0,San pablo,Nariño
 756,52,694,6572.0,San pedro de cartago,Nariño
-757,52,696,8989.0,"Santa barbara(iscuande)",Nariño
+757,52,696,8989.0,Santa barbara (iscuande),Nariño
 758,52,699,9869.0,Santa cruz (guachaves),Nariño
 759,52,720,6894.0,Sapuyes,Nariño
 760,52,786,15412.0,Taminango,Nariño
@@ -923,7 +923,7 @@
 921,70,204,7803.0,Coloso (ricaurte),Sucre
 922,70,215,65848.0,Corozal,Sucre
 923,70,230,4425.0,Chalan,Sucre
-924,70,235,20239.0,"Galeras (nuevagranada)",Sucre
+924,70,235,20239.0,Galeras (nueva granada),Sucre
 925,70,265,15618.0,Guaranda,Sucre
 926,70,400,11510.0,La union,Sucre
 927,70,418,21831.0,Los palmitos,Sucre
@@ -1067,7 +1067,7 @@
 1065,86,755,5560.0,San francisco,Putumayo
 1066,86,757,13903.0,San miguel (la dorada),Putumayo
 1067,86,760,6819.0,Santiago,Putumayo
-1068,86,865,27150.0,"La hormiga (valle delguamuez)",Putumayo
+1068,86,865,27150.0,La hormiga (valle del guamuez),Putumayo
 1069,86,885,21977.0,Villagarzon,Putumayo
 1070,88,1,43289.0,San andres,San andres
 1071,88,564,4545.0,Providencia,San andres
@@ -1088,8 +1088,8 @@
 1086,94,884,1214.0,Puerto colombia,Guainia
 1087,94,885,157.0,La guadalupe,Guainia
 1088,94,886,607.0,Cacahual,Guainia
-1089,94,887,969.0,"Pana pana (campoalegre)",Guainia
-1090,94,888,655.0,"Morichal (morichalnuevo)",Guainia
+1089,94,887,969.0,Pana pana (campo alegre),Guainia
+1090,94,888,655.0,Morichal (morichal nuevo),Guainia
 1091,95,1,45051.0,San jose del guaviare,Guaviare
 1092,95,15,7900.0,Calamar,Guaviare
 1093,95,25,10053.0,El retorno,Guaviare

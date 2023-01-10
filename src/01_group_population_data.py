@@ -46,6 +46,8 @@ def main():
     # Change format of titles
     pop_data.Municipio = pop_data.Municipio.map(lambda x: x.capitalize())
     pop_data.Departamento = pop_data.Departamento.map(lambda x: x.capitalize())
+    pop_data.Municipio = pop_data.Municipio.map(lambda x: x.replace("\r", " "))
+    pop_data.Departamento = pop_data.Departamento.map(lambda x: x.replace("\r", " "))
 
     # Save population data
     pop_data.to_csv(save_path)
