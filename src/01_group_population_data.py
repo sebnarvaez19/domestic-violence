@@ -49,6 +49,9 @@ def main():
     pop_data.Municipio = pop_data.Municipio.map(lambda x: x.replace("\r", " "))
     pop_data.Departamento = pop_data.Departamento.map(lambda x: x.replace("\r", " "))
 
+    # Remove repeated row
+    pop_data = pop_data.loc[pop_data.Municipio !=  "Santafe de bogota d.c.- usaquen",:]
+
     # Save population data
     pop_data.to_csv(save_path)
 
