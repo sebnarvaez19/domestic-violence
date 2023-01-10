@@ -4,5 +4,4 @@ scipy
 matplotlib
 jupyterlab
 geopandas
-tabula-py
 mapclassify
