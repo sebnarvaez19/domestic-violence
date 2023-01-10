@@ -43,6 +43,10 @@ def main():
     # Add the departamentos and municipios to population data
     pop_data = pop_data.merge(codes, on=["U_DPTO", "U_MPIO"])
 
+    # Change format of titles
+    pop_data.Municipio = pop_data.Municipio.map(lambda x: x.capitalize())
+    pop_data.Departamento = pop_data.Departamento.map(lambda x: x.capitalize())
+
     # Save population data
     pop_data.to_csv(save_path)
 
