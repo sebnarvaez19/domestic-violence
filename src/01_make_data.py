@@ -40,6 +40,9 @@ def main():
     # Merge census data with domestic violance cases
     gdf = census.merge(violence, on="MPIO_CDPMP", how="left")
 
+    # Fill NaN with zeros
+    gdf.DomesticViolenceCases = gdf.DomesticViolenceCases.fillna(0)
+
     # Calculate domestic violance cases per 1000 inhabitants
     gdf["DVCper1000iH"] = gdf.DomesticViolenceCases/gdf.STP27_PERS*1000
     
@@ -49,7 +52,7 @@ def main():
                              gdf.STP34_9_ED
 
     # Calculate kids population
-    gdf["KidPopulation"] = gdf.STP34_1_ED + gdf.STP34_2_ED
+    gdf["KidPopulation"] = gdf.STP34_1_ED
 
     # Calculate school level up to primary
     gdf["UptoPrimary"] = gdf.STP51_13_E + gdf.STP51_PRIM
@@ -61,7 +64,7 @@ def main():
     gdf["PercentageAdultinPrimary"] = gdf.AdultinPrimary/gdf.AdultPopulation*100
 
     # Calculate percentage of houses in lowest socioeconomical level
-    gdf["PercentageLSL"] = gdf.STP19_EE_1/gdf.STVIVIENDA*100
+    gdf["PercentageLSL"] = (gdf.STP19_EE_1 + gdf.STP19_EE_9)/gdf.STVIVIENDA*100
 
     # Calculate percentage of houses without electric services
     gdf["PercentageHWES"] = gdf.STP19_ES_2/gdf.STVIVIENDA*100
