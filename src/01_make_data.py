@@ -75,6 +75,16 @@ def main():
     # Calculate percentage of houses without water services
     gdf["PercentageHWWS"] = gdf.STP19_ACU2/gdf.STVIVIENDA*100
 
+    # Filter Caribbean Region Data
+    # 08: Atlántico, 13: Bolívar, 20: Cesar, 23: Cordoba, 44: La Guajira,
+    # 47: Magdalena, 70: Sucre
+    deptos = (gdf.DPTO_CCDGO == "08") | (gdf.DPTO_CCDGO == "13") | \
+             (gdf.DPTO_CCDGO == "20") | (gdf.DPTO_CCDGO == "23") | \
+             (gdf.DPTO_CCDGO == "44") | (gdf.DPTO_CCDGO == "47") | \
+             (gdf.DPTO_CCDGO == "70")
+
+    gdf = gdf.loc[deptos,:]
+    
     # Sort columns
     columns = gdf.columns.to_list()
     columns.remove("geometry")
