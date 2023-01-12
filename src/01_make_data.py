@@ -85,6 +85,10 @@ def main():
 
     gdf = gdf.loc[deptos,:]
     
+    # Capitalize cities names and drop old names columns
+    gdf = gdf.drop("MPIO_CNMBR", axis=1)
+    gdf.City = gdf.City.map(lambda x: x.capitalize())
+
     # Sort columns
     columns = gdf.columns.to_list()
     columns.remove("geometry")
