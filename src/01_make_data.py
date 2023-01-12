@@ -43,6 +43,9 @@ def main():
     # Fill NaN with zeros
     gdf.DomesticViolenceCases = gdf.DomesticViolenceCases.fillna(0)
 
+    # Calculate the ratio of women per men
+    gdf["WomenperMen"] = gdf.STP32_2_SE/gdf.STP32_1_SE
+
     # Calculate domestic violance cases per 1000 inhabitants
     gdf["DVCper1000iH"] = gdf.DomesticViolenceCases/gdf.STP27_PERS*1000
     
