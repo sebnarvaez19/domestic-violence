@@ -6,7 +6,6 @@ figure.titleweight: bold
 # Font
 font.family: "serif"
 font.size: 12
-text.usetex : True
 
 # Axes properties
 axes.linewidth: 0.5
