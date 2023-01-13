@@ -1,0 +1,61 @@
+# Figure properties
+figure.figsize: 4, 4
+figure.titlesize: small
+figure.titleweight: bold
+
+# Font
+font.family: "serif"
+font.size: 12
+text.usetex : True
+
+# Axes properties
+axes.linewidth: 0.5
+axes.labelpad: 4
+axes.labelsize: small
+axes.titlesize: small
+axes.prop_cycle: cycler(color=["48a185", "b74200", "575292", "c40e6b", "c38b00", "488603", "865802", "484848"])
+
+# Grid properties
+axes.grid: False
+grid.color: "black"
+grid.linestyle: -
+grid.linewidth: 0.25
+
+# Tick properties
+xtick.top: True
+xtick.direction: in
+xtick.labelsize: small
+xtick.minor.visible: True
+
+ytick.right: True
+ytick.direction: in
+ytick.labelsize: small
+ytick.minor.visible: True
+
+xtick.major.size: 4
+xtick.major.width: 0.5
+xtick.minor.size: 2
+xtick.minor.width: 0.5
+
+ytick.major.size: 5
+ytick.major.width: 0.5
+ytick.minor.size: 3
+ytick.minor.width: 0.5
+
+# Images properties
+image.aspect: equal
+image.cmap: Spectral
+
+# Lines properties
+lines.linewidth: 1.25
+lines.markersize: 4
+lines.markeredgecolor: "black"
+lines.markeredgewidth: 1.0
+scatter.edgecolors: "black"
+
+# Legend properties
+legend.framealpha: 1
+legend.frameon: False
+legend.fontsize: small
+legend.title_fontsize: small
+legend.scatterpoints: 1
