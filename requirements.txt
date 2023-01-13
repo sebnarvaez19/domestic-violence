@@ -6,4 +6,5 @@ jupyterlab
 geopandas
 mapclassify
 seaborn
+contextily
 pysal
