@@ -56,7 +56,7 @@ def main():
 
     # Save figures
     for i, (fig, key) in enumerate(zip(figs, save_keys)):
-        fig.savefig(save_images_path.format(i+7, key, "svg"))
+        fig.savefig(save_images_path.format(i+7, key, "png"))
 
     # Show plots
     # plt.show()
