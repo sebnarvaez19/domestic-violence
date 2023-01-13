@@ -59,7 +59,7 @@ def main():
         fig.savefig(save_images_path.format(i+7, key, "png"))
 
     # Show plots
-    # plt.show()
+    plt.show()
 
 if __name__ == "__main__":
     main()
