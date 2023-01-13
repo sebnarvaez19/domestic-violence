@@ -64,6 +64,9 @@ def main():
     # Plot autocorrelation
     fig2, ax = plt.subplots(1)
 
+    ax.axvline(0, color="black", linewidth=0.5)
+    ax.axhline(0, color="black", linewidth=0.5)
+
     sns.regplot(
         x="DVCper1000iH_std",
         y="DVCper1000iHLag_std",
@@ -71,9 +74,6 @@ def main():
         scatter_kws=dict(color="gray", alpha=0.5),
         ax=ax,
     )
-
-    ax.axvline(0, color="black", linewidth=0.5)
-    ax.axhline(0, color="black", linewidth=0.5)
 
     # Plot Moran's I
     fig3, ax = plt.subplots(1)
