@@ -1,5 +1,6 @@
 env/
 qgis/
+src/functions/__pycache__/
 tests/
 wheels/
 data/external/zips/
