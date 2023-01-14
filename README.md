@@ -1,6 +1,6 @@
-# Domestic violence in Colombia
+# Domestic violence in Colombian Caribbean Region
 
-In this repo we will analyze the spatial distribution fo domestic violance cases in Colombia from 2016 to 2019.
+In this repo we analize the domestic violences cases in Colombian Caribbean Region from 2010 to 2021, we correlate the domestic violence cases with some dempographic indcators and determined the global and local spatial autocorrelation of domestic violence cases.
 
 ## Folder Structure
 
@@ -20,4 +20,4 @@ In this repo we will analyze the spatial distribution fo domestic violance cases
 
 You have to install all the [requirements.txt](requirements.txt) and its dependencies.
 
-Original population data will not be uploaded, but it could be donwloaded from the [Colombian Statistical Administration Catalog](https://microdatos.dane.gov.co/index.php/catalog/central/about). Base cartography data will not be uploaded, buth the cities taken from this it is uploaded.
+Original population data will not be uploaded, but it could be donwloaded from the [Colombian Statistical Administration Catalog](https://microdatos.dane.gov.co/index.php/catalog/central/about).
