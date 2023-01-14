@@ -80,7 +80,7 @@ def main():
 
     sns.kdeplot(m.sim, shade=True, ax=ax)
     ax.axvline(m.EI, color="black")
-    ax.axvline(m.I, color="black")
+    ax.axvline(m.I, color="red")
 
     ax.set_xlabel("Moran's I")
 
