@@ -86,9 +86,10 @@ def main():
     # Save figures
     figs = [fig1, fig2, fig3]
     labs = ["local_moran_I", "correlation_quadrant", "dvc_per_1000_HH_cities"]
+    formats = ["svg", "png", "svg"]
 
-    for i, (fig, lab) in enumerate(zip(figs, labs)):
-        fig.savefig(save_images_path.format(i+13, lab, "svg"))
+    for i, (fig, lab, f) in enumerate(zip(figs, labs, formats)):
+        fig.savefig(save_images_path.format(i+13, lab, f))
 
 if __name__ == "__main__":
     main()
