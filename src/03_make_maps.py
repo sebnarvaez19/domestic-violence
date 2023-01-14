@@ -11,9 +11,9 @@ save_images_path = "images/{:02d}_{}_map.{}"
 
 # Define variables of interest
 variables = ["DVCper1000iH", "PercentageAdultinPrimary", "WomenperMen"]
-titles = ["Domestic violence cases", "% Adults in primary", "Ratio women per men"]
-colors = ["YlOrRd", "cool", "Spectral_r"]
-save_keys = ["dvc_jenks", "perc_adults_primary_jenks", "ratio_women_per_men"]
+titles = ["DVC per 1000 inhabitants", "% Adults in primary", "Ratio women per men"]
+colors = ["Spectral_r", "YlOrRd", "cool"]
+save_keys = ["dvc_per_1000_jenks", "perc_adults_primary_jenks", "ratio_women_per_men"]
 
 def main():
     # Load data
