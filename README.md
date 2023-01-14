@@ -1,6 +1,6 @@
 # Domestic violence in Colombian Caribbean Region
 
-In this repo we analize the domestic violences cases in Colombian Caribbean Region from 2010 to 2021, we correlate the domestic violence cases with some dempographic indcators and determined the global and local spatial autocorrelation of domestic violence cases.
+In this repo we analize the domestic violence cases in Colombian Caribbean Region from 2010 to 2021, we correlate the domestic violence cases with some dempographic indicators and determined the global and local spatial autocorrelation of domestic violence cases.
 
 ## Folder Structure
 
