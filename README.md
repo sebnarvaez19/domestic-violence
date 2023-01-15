@@ -7,11 +7,9 @@ In this repo we analize the domestic violence cases in Colombian Caribbean Regio
 ```
 .
 ├── data                        # Folder with all data used
-│   ├── external                # 
 │   ├── processed               # All processed data
 │   └── shapefile               # Shapefiles to consult
 ├── images                      # All final plots
-├── maps                        # Maps made in QGIS
 └── src                         # All scripts made
     └── functions               # Functions made to optimize the process
 ```
