@@ -21,7 +21,7 @@ def main():
     gdf = gdf.loc[:, ["DVCper1000iH", "geometry"]]
     
     # Define weights for spatial autocorrelation
-    w = weights.KNN.from_dataframe(gdf, k=8)    # k=8 for Queens neighbors
+    w = weights.Queen.from_dataframe(gdf)
     w.transform = "R"                           # for continuous variable
 
     # Calculate lagged variable
